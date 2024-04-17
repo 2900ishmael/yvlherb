@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Yvlherb"
+        tools:targetApi="31">
+        <activity
+            android:name=".ShoppingActivity2"
+            android:exported="false"
+            android:label="@string/title_activity_shopping2"
+            android:theme="@style/Theme.Yvlherb" />
+        <activity
+            android:name=".ShoppingActivity1"
+            android:exported="false"
+            android:label="@string/title_activity_shopping1"
+            android:theme="@style/Theme.Yvlherb" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:label="@string/title_activity_splash"
+            android:theme="@style/Theme.Yvlherb" />
+        <activity
+            android:name=".LottieActivity"
+            android:exported="false"
+            android:label="@string/title_activity_lottie"
+            android:theme="@style/Theme.Yvlherb" />
+        <activity
+            android:name=".OOpium00"
+            android:exported="false"
+            android:label="@string/title_activity_oopium00"
+            android:theme="@style/Theme.Yvlherb" />
+        <activity
+            android:name=".DestinationActivity"
+            android:exported="false"
+            android:label="@string/title_activity_destination"
+            android:theme="@style/Theme.Yvlherb" />
+        <activity
+            android:name=".FormActivity"
+            android:exported="false"
+            android:label="@string/title_activity_form"
+            android:theme="@style/Theme.Yvlherb" />
+        <activity
+            android:name=".IntentActivity"
+            android:exported="false"
+            android:label="@string/title_activity_intent"
+            android:theme="@style/Theme.Yvlherb" />
+        <activity
+            android:name=".LayoutActivity"
+            android:exported="false"
+            android:label="@string/title_activity_layout"
+            android:theme="@style/Theme.Yvlherb" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Yvlherb">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

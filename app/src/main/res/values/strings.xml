@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">yvlherb</string>
+    <string name="title_activity_layout">LayoutActivity</string>
+    <string name="title_activity_intent">IntentActivity</string>
+    <string name="title_activity_form">FormActivity</string>
+    <string name="title_activity_destination">DestinationActivity</string>
+    <string name="title_activity_oopium00">OOpium00</string>
+    <string name="title_activity_lottie">LottieActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_shopping1">ShoppingActivity1</string>
+    <string name="title_activity_shopping2">ShoppingActivity2</string>
+</resources>
